@@ -122,13 +122,13 @@ footer
     margin-top: 1vh;
     border: 0.01px solid rgb(41, 39, 39);
     border-radius: 12px;
-    opacity: 0;
     transition: 0.1s linear;
     /* visibility: hidden; */
+    display: none;
 }
 .menu_toggle
 {
-    opacity: 1;
+    display: block;
 }
 .options li:hover
 {
