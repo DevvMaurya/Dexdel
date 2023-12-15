@@ -2,9 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: whitesmoke;
     font-family: 'Playfair Display', serif;
     font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+    user-select: none;
 }
 body
 {
@@ -110,5 +111,34 @@ footer
     height: fit-content;
     margin: 2px;
     /* border: 0.01px solid goldenrod; */
-
 }
+
+.options
+{
+    position: absolute;
+    right: 6%;
+    padding: 4px;
+    background-color: #343333;
+    margin-top: 1vh;
+    border: 0.01px solid rgb(41, 39, 39);
+    border-radius: 12px;
+    opacity: 0;
+    transition: 0.1s linear;
+    /* visibility: hidden; */
+}
+.menu_toggle
+{
+    opacity: 1;
+}
+.options li:hover
+{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.mode
+{
+    color: #343333;
+    background: rgb(245, 237, 223);
+}
+

@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@200&display=swap" rel="stylesheet">
-    <script src="Script/index.js"></script>
+    <script src="Script/index.js" defer></script>
     <title>Dexdel</title>
 </head>
 <body>
@@ -17,6 +17,11 @@
         </div>
         <div class="menu">
             <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABY0lEQVR4nO2WzU7DMBCE9wKc+LkCD9XCY/D3llCQAuIQWrBUJbuVjUQQB+BetJYbpLJRJA6ND/NJvqQ7o3Rtb4YIAPAvnHM7XuTSM9965u+0Jl7koizL7Ry1fxCR48D8GESWHeuBmY9y0podWZl5kSfPPGqaZleXFxkHkVkyvV/v0FBaE1/XV8ls+jGf76//rs9Wpq8i5zloTTzzXTRkHtkVRF7kJNVMctCaeOYvLdYttSuI3p3bS4afOWhNtKjPMG2z9TKDaE107KWzOrYriMJicRovHvNNDloTnddpOsysS1dV1UFgfkk1ZzloTXS06bxO//xZL5iezXg+tSO/ZsWyKLZy0HaiH53W1F7FW10f5qTtRDuk81rPo06UNFWudVv7OjKUFoBN4hDjBTE+IMYbIMYTYnwEMb4LxHhCjG9hxHgANo9DjBfE+IAYb4AYT4jxEcT4LhDjCTG+hRHjAQDUww9zSIDz4sB5bQAAAABJRU5ErkJggg==" width="42" onclick="ShowMenu()">
+            <div class="options" id="options">
+                <li>📞 Contact</li>
+                <li>🧑🏽‍💻 Code</li>
+                <li onclick="thememode()"><span id="mode">🌙 </span>Theme</li>
+            </div>
         </div>
     </header>
     <label id="dexledlogo">Dexdel</label>
