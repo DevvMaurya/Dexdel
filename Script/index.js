@@ -1,5 +1,6 @@
 let theme_btn = document.querySelector('#theme');
 let mode_icon = document.querySelector('#mode');
+let links = document.querySelector('a')
 function thememode()
 {
     console.log("btnpush");
@@ -7,6 +8,7 @@ function thememode()
     document.body.classList.toggle("mode");
 
     mode_icon.innerHTML = mode_icon.classList.toggle("icon")?'🌞':'🌙';
+    // links.classList.toggle('icon')
 }
 
 function ShowMenu()

@@ -16,7 +16,7 @@
             <label style="color: whitesmoke;">Dexdel</label>
         </div>
         <div class="menu">
-            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAABY0lEQVR4nO2WzU7DMBCE9wKc+LkCD9XCY/D3llCQAuIQWrBUJbuVjUQQB+BetJYbpLJRJA6ND/NJvqQ7o3Rtb4YIAPAvnHM7XuTSM9965u+0Jl7koizL7Ry1fxCR48D8GESWHeuBmY9y0podWZl5kSfPPGqaZleXFxkHkVkyvV/v0FBaE1/XV8ls+jGf76//rs9Wpq8i5zloTTzzXTRkHtkVRF7kJNVMctCaeOYvLdYttSuI3p3bS4afOWhNtKjPMG2z9TKDaE107KWzOrYriMJicRovHvNNDloTnddpOsysS1dV1UFgfkk1ZzloTXS06bxO//xZL5iezXg+tSO/ZsWyKLZy0HaiH53W1F7FW10f5qTtRDuk81rPo06UNFWudVv7OjKUFoBN4hDjBTE+IMYbIMYTYnwEMb4LxHhCjG9hxHgANo9DjBfE+IAYb4AYT4jxEcT4LhDjCTG+hRHjAQDUww9zSIDz4sB5bQAAAABJRU5ErkJggg==" width="42" onclick="ShowMenu()">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAABUklEQVR4nO2ZTU7DMBCFveoxCmehhasRLsDP5VpKaVm8l3FhXcnIoSJWFRZ2Eger80lZZjzP48nIL8YoiqL8a6y110K+CLCtgaOQbsyn9msAWyGfReSqV/Ik74T8Gjtp+esBPkku++z8dMmzFSEi82gBzbFpy7qywI1zbmZGxjk3s8CiBtaBkKfoQKdz2ATwyZvMWGARVGETHSBs2Bw7f45fM2xsE0t4DhMXfxByL+ROyCplE6RHDr1e9gl3NGRVkoB9h4CPkgTsOj6H76UfofucOZgBmrg6VaK8Jh4KUQG80Ao4HWQ/6CATHWTUQSY6yHiBc2AoRAcZ9Ubm9EZGvZGxzBtZXbyxBbxNaS2SXAYCXqMDNP58G2DtA+Yyd0nenpm7j9GB/M+Fxtqe3l4/JNnrv2WcUgRw8C51UvJBJea+hN7izviLadOsmbrziqIoJhffwoxYhG/cxa8AAAAASUVORK5CYII=" width="42" onclick="ShowMenu()">
             <div class="options" id="options">
                 <li>📞 Contact</li>
                 <li>🧑🏽‍💻 Code</li>
@@ -24,21 +24,22 @@
             </div>
         </div>
     </header>
-    <label id="dexledlogo">Dexdel</label>
-    <div class="search">
-        <div class="ip">
-            <input type="search" name="ask" id="que" required placeholder="Search dev for">
-            <input type="submit" value="🔍" id="sbtn">
+    <form action="search.html" method="POST">
+        <label id="dexledlogo">Dexdel</label>
+        <div class="search">
+            <div class="ip">
+                <input type="search" name="ask" id="que" required placeholder="Search dev for">
+                <input type="submit" value="🔍" id="sbtn">
+            </div>
         </div>
-    </div>
-    <div class="links">
-        <label for="">Suggestions</label>
-        <a href="#">Python Developer</a>
-        <a href="#">Data analytics</a>
-        <a href="#">A.I Engineer</a>
-        <a href="#" style="margin-top: 2vh; color:rgb(121, 162, 250)">more</a>
-    </div>
-
+    </form>
+        <div class="links">
+            <label for="">Suggestions</label>
+            <a href="#">Python Developer</a>
+            <a href="#">Data analytics</a>
+            <a href="#">A.I Engineer</a>
+            <a href="#" style="margin-top: 2vh; color:rgb(121, 162, 250)">more</a>
+        </div>
     <footer>
         <div class="creater" >
             <label for="" style="cursor: pointer;" onclick="linkden()">Developer : Dev Maurya 😉</label>
